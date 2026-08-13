@@ -2951,3 +2951,13 @@ html {
         margin-top: 12px !important;
     }
 }
+@media (max-width: 768px) {
+    .footer-brand img {
+        width: 320px !important;
+        max-width: none !important;
+        height: auto !important;
+
+        transform: translate(-72px, 18px) !important;
+        transform-origin: left center !important;
+    }
+}
