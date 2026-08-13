@@ -2591,3 +2591,211 @@ html {
         font-size: 0.82rem !important;
     }
 }
+/* =========================================
+   MOBILE FINAL — FOODPET
+   ========================================= */
+@media (max-width: 768px) {
+
+    /* 1 — HEADER: logo menor + tudo horizontal */
+    .nav-container {
+        min-height: 82px !important;
+        height: auto !important;
+        padding: 10px 18px !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 8px !important;
+    }
+
+    .logo img {
+        width: 125px !important;
+        max-width: 125px !important;
+    }
+
+    .main-nav {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .nav-links {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 12px !important;
+        justify-content: flex-end !important;
+        overflow: visible !important;
+    }
+
+    .nav-links a,
+    .nav-links a:visited {
+        font-size: 0.68rem !important;
+    }
+
+
+    /* 2 — ESCOLHAS CONSCIENTES */
+    .science-band {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 34px 0 36px !important;
+    }
+
+    .science-band-inner {
+        width: 100% !important;
+        padding: 0 30px !important;
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+    }
+
+    .science-intro {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        font-size: 1.65rem !important;
+        line-height: 1.15 !important;
+        text-align: left !important;
+    }
+
+    .science-grid {
+        width: 100% !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 24px !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    /* 3 + 4 — CIÊNCIA EM ENVASE */
+    .packaging-fold {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 48px 30px 44px !important;
+    }
+
+    .packaging-header,
+    .packaging-row {
+        width: 100% !important;
+        max-width: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .packaging-header {
+        text-align: center !important;
+    }
+
+    .packaging-intro {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center !important;
+        margin: 18px auto 0 !important;
+    }
+
+    .packaging-row,
+    .packaging-row-top,
+    .packaging-row-bottom {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) !important;
+        width: 100% !important;
+        column-gap: 0 !important;
+        row-gap: 24px !important;
+        align-items: start !important;
+        justify-content: stretch !important;
+    }
+
+    .packaging-text-block,
+    .packaging-row-top .packaging-text-block,
+    .packaging-row-bottom .packaging-text-block {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        padding: 0 !important;
+        justify-self: stretch !important;
+        align-self: start !important;
+        order: 1 !important;
+    }
+
+    .packaging-text-block p {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .packaging-visual-card,
+    .packaging-row-top .packaging-visual-card,
+    .packaging-row-bottom .packaging-visual-card {
+        width: 100% !important;
+        max-width: 420px !important;
+        justify-self: center !important;
+        align-self: start !important;
+        order: 2 !important;
+        top: 0 !important;
+    }
+
+
+    /* 5 — FAIXA DAS LINHAS */
+    .lines-bar {
+        width: 100% !important;
+        min-height: 74px !important;
+    }
+
+    .lines-bar-inner {
+        width: 100% !important;
+        padding: 0 18px !important;
+        grid-template-columns: 68px repeat(3, 1fr) !important;
+        column-gap: 6px !important;
+    }
+
+    .lines-label {
+        font-size: 0.78rem !important;
+    }
+
+    .lines-bar img {
+        width: 100% !important;
+        max-width: 92px !important;
+        max-height: 46px !important;
+    }
+
+
+    /* FOOTER — remove trava desktop de 300px */
+    .site-footer {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        padding: 42px 28px 38px !important;
+        overflow: visible !important;
+    }
+
+    .site-footer-inner {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        gap: 30px !important;
+
+        transform: none !important;
+    }
+
+    .footer-brand {
+        width: 100% !important;
+    }
+
+    .footer-brand img {
+        width: 260px !important;
+        max-width: 100% !important;
+        transform: none !important;
+    }
+
+    .footer-contact {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .footer-info {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
