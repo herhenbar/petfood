@@ -2898,3 +2898,56 @@ html {
         gap: 5px !important;
     }
 }
+@media (max-width: 768px) {
+
+    .site-footer {
+        padding: 26px 32px 28px !important;
+    }
+
+    .site-footer-inner {
+        gap: 18px !important;
+        align-items: flex-start !important;
+    }
+
+    /* LOGO */
+    .footer-brand {
+        width: 100% !important;
+        height: 155px !important;
+        min-height: 155px !important;
+        overflow: hidden !important;
+
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+    }
+
+    .footer-brand img {
+        width: 320px !important;
+        max-width: none !important;
+        height: auto !important;
+
+        transform: translateX(-53px) !important;
+        transform-origin: left center !important;
+    }
+
+    /* CONTATO + INSTITUCIONAL NO MESMO EIXO */
+    .footer-contact,
+    .footer-info {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .footer-contact {
+        gap: 4px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .footer-info p {
+        margin-bottom: 5px !important;
+    }
+
+    .footer-copy {
+        margin-top: 12px !important;
+    }
+}
