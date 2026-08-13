@@ -2556,3 +2556,38 @@ html {
         white-space: nowrap;
     }
 }
+@media (max-width: 768px) {
+
+    .products-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 18px !important;
+        padding: 0 18px !important;
+    }
+
+    .product-card {
+        width: 100% !important;
+        aspect-ratio: auto !important;
+        min-height: 0 !important;
+        padding: 22px 18px !important;
+    }
+
+    .product-card-image {
+        width: 100% !important;
+        max-width: 180px !important;
+        height: 190px !important;
+        object-fit: contain;
+    }
+
+    .product-card-name {
+        font-size: 1.55rem !important;
+    }
+
+    .product-card-benefit {
+        font-size: 0.9rem !important;
+    }
+
+    .product-card-description {
+        font-size: 0.82rem !important;
+    }
+}
