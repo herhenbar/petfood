@@ -2504,3 +2504,55 @@ html {
     position: relative;
     top: -12px;
 }
+
+
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+    }
+
+    .nav-container {
+        min-height: 86px;
+        height: auto;
+        padding: 10px 14px;
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .logo {
+        flex: 0 0 auto;
+    }
+
+    .logo img {
+        width: 150px;
+        max-width: 150px;
+        height: auto;
+    }
+
+    .main-nav {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .nav-links {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+
+        overflow: visible;
+    }
+
+    .nav-links a,
+    .nav-links a:visited {
+        font-size: 0.68rem;
+        white-space: nowrap;
+    }
+}
