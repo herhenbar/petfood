@@ -2799,3 +2799,102 @@ html {
         max-width: 100% !important;
     }
 }
+@media (max-width: 768px) {
+
+    /* P1 — HEADER: dá o último espaço que falta */
+    .logo img {
+        width: 105px !important;
+        max-width: 105px !important;
+    }
+
+    .nav-links {
+        gap: 9px !important;
+    }
+
+    .nav-links a,
+    .nav-links a:visited {
+        font-size: 0.64rem !important;
+    }
+
+
+    /* P2 — CINZA FULL BLEED + RESPIRO ABAIXO DOS ÍCONES */
+    .science-band {
+        width: 100vw !important;
+        margin-left: calc(50% - 50vw) !important;
+        margin-right: calc(50% - 50vw) !important;
+        padding-bottom: 0 !important;
+    }
+
+    .science-grid {
+        padding-bottom: 34px !important;
+    }
+
+
+    /* P3 — BOXES ALINHADOS EXATAMENTE COM O TEXTO */
+    .packaging-row-top .packaging-visual-card,
+    .packaging-row-bottom .packaging-visual-card {
+        width: 100% !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+
+        transform: none !important;
+        top: 0 !important;
+
+        justify-self: stretch !important;
+    }
+
+
+    /* P4 — REMOVE A SOBRA CINZA ANTES DA FAIXA AZUL */
+    .science-band {
+        margin-bottom: 0 !important;
+    }
+
+    .packaging-fold {
+        margin-bottom: 0 !important;
+    }
+
+
+    /* FOOTER — MAIS COMPACTO E TUDO NO MESMO EIXO */
+    .site-footer {
+        padding: 30px 32px 28px !important;
+    }
+
+    .site-footer-inner {
+        gap: 20px !important;
+        align-items: flex-start !important;
+    }
+
+    .footer-brand {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+
+        transform: none !important;
+        margin: 0 !important;
+    }
+
+    .footer-brand img {
+        width: 220px !important;
+        max-width: 220px !important;
+        height: auto !important;
+
+        transform: translateX(-28px) !important;
+    }
+
+    .footer-contact,
+    .footer-info {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    .footer-contact {
+        gap: 5px !important;
+    }
+}
