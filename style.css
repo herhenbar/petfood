@@ -2952,17 +2952,10 @@ html {
     }
 }
 @media (max-width: 768px) {
-
-    .footer-brand {
-        height: 175px !important;
-        min-height: 175px !important;
-        overflow: visible !important;
-        align-items: flex-start !important;
-    }
-
     .footer-brand img {
         width: 300px !important;
         max-width: none !important;
-        transform: translate(-48px, 22px) !important;
+        height: auto !important;
+        transform: translate(-95px, -18px) !important;
     }
 }
