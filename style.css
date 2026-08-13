@@ -2953,9 +2953,19 @@ html {
 }
 @media (max-width: 768px) {
     .footer-brand img {
+    width: 300px !important;
+    max-width: none !important;
+    height: auto !important;
+
+    transform: translateX(-95px) !important;
+    position: relative !important;
+    top: 25px !important;
+}
+}@media (max-width: 768px) {
+    .footer-brand img {
         width: 300px !important;
         max-width: none !important;
         height: auto !important;
-        transform: translate(-95px, -18px) !important;
+        transform: translate(-95px, 18px) !important;
     }
 }
